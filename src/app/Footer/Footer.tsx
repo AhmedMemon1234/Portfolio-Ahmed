@@ -11,7 +11,7 @@ export default function Footer(){
         <div className="Parentfooter">
  <div className="Childfooter">
     <div className="connect">
-<h1>Lets Connect!</h1>
+<h1>Let&apos;s Connect!</h1>
     </div>
     <div className="connectparagraph">
 <p>This Is The Way By From Which <br /> We Can Connect Together!!!!!!!</p>

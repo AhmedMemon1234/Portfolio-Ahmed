@@ -24,7 +24,7 @@ export default function Home(){
 <a href="https://github.com/AhmedMemon1234" target="blank"><FaGithub/></a>
     </div>
     <div className="h1first">
-      <h1>Hi, I'm <span>AhmedMemon,</span><br />Full Stack Web Developer,<br /><span>Designing The Future Of Web Dev.</span></h1>
+      <h1>Hi&apos; I&apos;m <span>AhmedMemon&apos;</span><br />Full Stack Web Developer&apos;<br /><span>Designing The Future Of Web Dev.</span></h1>
     </div>
     <div className="buttons">
   <a href="/Ahmed_Memon_CV.pdf" download="Ahmed_Memon_CV"><button className="button1">Download CV</button></a>    
