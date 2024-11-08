@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Header from "./Header/Header"
 import { CiFacebook } from "react-icons/ci";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { FaGithub } from "react-icons/fa";

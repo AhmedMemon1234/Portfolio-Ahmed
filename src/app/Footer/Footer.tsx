@@ -6,13 +6,12 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
-import Image from "next/image";
 export default function Footer(){
     return(
         <div className="Parentfooter">
  <div className="Childfooter">
     <div className="connect">
-<h1>Let's Connect!</h1>
+<h1>Lets Connect!</h1>
     </div>
     <div className="connectparagraph">
 <p>This Is The Way By From Which <br /> We Can Connect Together!!!!!!!</p>
