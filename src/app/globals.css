@@ -354,7 +354,7 @@ text-shadow: 2px 2px 4px rgba(0, 13, 255, 0.7)
 .ParentSection2 {
   width: 100%;
   margin-top: 45vh;
-  height: 100%;
+  height: 600px;
   background: linear-gradient(45deg, #1a1a1a, #333333, #121212); 
   box-shadow: 
     0 0 15px rgba(0, 0, 0, 0.7), 
@@ -575,7 +575,7 @@ text-shadow: 2px 2px 4px rgba(0, 13, 255, 0.7)
   width: 0%;
   background-color: #121212;
   height: 100%;
-  border-radius: 1vw;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -591,7 +591,7 @@ text-shadow: 2px 2px 4px rgba(0, 13, 255, 0.7)
   width: 100%;
   margin-top: 5vh;
   background-color: #ddd; 
-  height: 5vh; 
+  height: 30px; 
   border-radius: 10px; 
   overflow: hidden; 
 }
@@ -633,7 +633,7 @@ text-shadow: 2px 2px 4px rgba(0, 13, 255, 0.7)
   margin-left: 1vw;
   margin-top: 5vh;
   background-color: #ddd;
-  height: 5vh;
+  height: 30px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -672,7 +672,7 @@ text-shadow: 2px 2px 4px rgba(0, 13, 255, 0.7)
   margin-left: 1vw;
   margin-top: 5vh;
   background-color: #ddd;
-  height: 5vh;
+  height: 30px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -737,7 +737,7 @@ text-shadow: 2px 2px 4px rgba(0, 13, 255, 0.7)
   margin-left: 1vw;
   margin-top: 0vh;
   background-color: #ddd;
-  height: 5vh;
+  height: 30px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -802,7 +802,7 @@ text-shadow: 2px 2px 4px rgba(0, 13, 255, 0.7)
   margin-left: 1vw;
   margin-top: 10vh;
   background-color: #ddd;
-  height: 5vh;
+  height: 30px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -1174,90 +1174,21 @@ display: flex;
 }
 .Childfooter{
   width: 100%;
-  height: 100%;
+  height: 30%;
   display: flex;
-}
-.connect{
-  color: white;
-  margin-top: 5vh;
-  font-weight: 600;
-  font-size: 2.5vw;
-  margin-left: 41vw;
-  cursor: context-menu;
-}
-.connectparagraph{
-  color: white;
-  font-size: 0.7vw;
-  cursor: context-menu;
-  margin-top: 13vh;
-  margin-left: -12.5vw;
-}
-.iconcontainer{
-  color: white;
-  display: flex;
-  margin-top: 20vh;
-  margin-left: -9vw;
-}
-
-.iconcontainer2{
-  color: white;
-  display: flex;
-  margin-top: 20vh;
-  margin-left: 1vw;
-}
-
-.iconcontainer3{
-  color: white;
-  display: flex;
-  margin-top: 20vh;
-  margin-left: 1vw;
-}
-
-.iconcontainer4{
-  color: white;
-  display: flex;
-  margin-top: 20vh;
-  margin-left: 1vw;
-}
-.iconcontainer5{
-  color: white;
-  display: flex;
-  margin-top: 24vh;
-  margin-left: -8vw;
-}
-.iconcontainer6{
-  color: white;
-  display: flex;
-  margin-top: 24vh;
-  margin-left: 1vw;
-}
-
-.iconcontainer7{
-  color: white;
-  display: flex;
-  margin-top: 24vh;
-  margin-left: 1vw;
-}
-
-.iconcontainer8{
-  color: white;
-  display: flex;
-  margin-top: 24vh;
-  margin-left: 1vw;
-}
-.iconcontainer:hover,.iconcontainer2:hover,.iconcontainer3:hover,.iconcontainer4:hover,.iconcontainer5:hover,.iconcontainer6:hover,.iconcontainer7:hover,.iconcontainer8:hover{
-  color: red;
 }
 .allright{
   margin-left: -50vw;
   margin-top: 23vh;
   font-size: small;
   color: white;
+  cursor: context-menu;
 }
 .designby{
   color: white;
   font-size: 1vw;
   margin-left: 60vw;
+  cursor: context-menu;
   margin-top: 24vh;
 }
 .designby span{
@@ -1266,6 +1197,20 @@ display: flex;
 .menu-toggle{
   display: none;
 }
+.FooterParent{
+  display: flex;
+  font-size: 1vw;
+  gap: 2vw;
+  font-weight: 600;
+  margin-top: 15vh;
+  color: white;
+  transition: 0.1s ease;
+}
+.FooterParent:hover{
+  color: red;
+  transform: translateY(-5px);
+}
+
 @media (max-width:480px){
 .HeaderParent {
   position: relative;
@@ -1382,7 +1327,7 @@ font-weight: bolder;
     flex-wrap: wrap;
   }
   .ParentSection2{
-    height: 100%;
+    height: 730px;
   }
   .imageim{
     width: 70vw;
@@ -1669,60 +1614,25 @@ font-weight: bolder;
   width: 100%;
   display: inline;
 }
-.connect{
-margin-left: 38vw;
-font-size: 4vw;
-margin-top: 2vh;
-}
-.iconcontainer{
-  margin-top: -13vh;
-  margin-left: 39vw;
-}
-
-.iconcontainer2{
-  margin-top: -2vh;
-  margin-left: 45vw;
-}
-
-.iconcontainer3{
-  margin-top: -2vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer4{
-  margin-top: -2vh;
-  margin-left: 57vw;
-}
-
-.iconcontainer5{
-  margin-top: 2vh;
-  margin-left: 39vw;
-}
-
-.iconcontainer6{
-  margin-top: -2vh;
-  margin-left: 45vw;
-}
-
-.iconcontainer7{
-  margin-top: -2vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer8{
-  margin-top: -2vh;
-  margin-left: 57vw;
-}
-
 .allright{
-  margin-left: 0vw;
-  margin-top: 2vh;
-  font-size: 1.5vw;
+  margin-left: 22.5vw;
+  margin-top: -7vh;
+  font-size: 3vw;
+  white-space: nowrap;
 }
 .designby{
-  margin-left: 75vw;
-  font-size: 2vw;
-  margin-top: -1.5vh;
+  margin-left: 85vw;
+  font-size: 1vw;
+  margin-top: 2.5vh;
+}
+.FooterParent li{
+  display: flex;
+  position: relative;
+  font-size:2vw;
+  margin-top: -4vh;
+}
+.FooterParent{
+  display: block;
 }
 
 }
@@ -1843,6 +1753,7 @@ margin-top: 2vh;
     flex-wrap: wrap;
   }
   .ParentSection2{
+    height: 500px;
     margin-top: 28.8vh;
   }
   .imageim{
@@ -1851,7 +1762,7 @@ margin-top: 2vh;
     margin-left: 2vw;
   }
   .paragraphsection2{
-    margin-top: 35vh;
+    margin-top: 220px;
     position: absolute;
     font-size: 1vw;
     width: 40vw;
@@ -1867,7 +1778,7 @@ margin-top: 2vh;
   .fullstack{
     width: 40vw;
     position: absolute;
-    margin-top: 25vh;
+    margin-top: 180px;
     margin-left: 52vw;
     font-size: larger;
   }
@@ -1880,13 +1791,13 @@ margin-top: 2vh;
     display: inline;
     width: 100%;
   }
+
   .htmlParent{
     height: 40vh;
     margin-top: 10vh;
     width: 20%;
     margin-left: 3.5vw;
   }
-  
   .cssParent{
     height: 40vh;
     margin-top: -43vh;
@@ -2067,74 +1978,32 @@ display: none;
 .Parentfooter{
   margin-top: -5vh;
   width: 100%;
-  height: 50%;
+  height: 20%;
 }
 .Childfooter{
   flex-wrap: wrap;
   width: 100%;
   display: inline;
 }
-.connect{
-margin-left: 38vw;
-font-size: 4vw;
-margin-top: 2vh;
-}
-.connectparagraph{
-  margin-left: 45vw;
-  margin-top: -0vh;
-}
 
-.iconcontainer{
-  margin-top: 1vh;
-  margin-left: 39vw;
-}
-
-.iconcontainer2{
-  margin-top: -2vh;
-  margin-left: 45vw;
-}
-
-.iconcontainer3{
-  margin-top: -2vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer4{
-  margin-top: -2vh;
-  margin-left: 57vw;
-}
-
-.iconcontainer5{
-  margin-top: 2vh;
-  margin-left: 39vw;
-}
-
-.iconcontainer6{
-  margin-top: -2vh;
-  margin-left: 45vw;
-}
-
-.iconcontainer7{
-  margin-top: -2vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer8{
-  margin-top: -2vh;
-  margin-left: 57vw;
-}
 
 .allright{
-  margin-left: 0vw;
-  margin-top: 2vh;
+  margin-left: 36vw;
+  margin-top: -10vh;
   font-size: 1.5vw;
 }
 .designby{
-  margin-left: 75vw;
-  font-size: 2vw;
-  margin-top: -1.5vh;
+  margin-left: 85vw;
+  font-size: 1vw;
+  margin-top: 2.5vh;
 }
 
+.FooterParent li{
+  display: flex;
+  position: relative;
+  font-size:1vw;
+  margin-top: -4vh;
+}
 }
 
 
@@ -2213,7 +2082,7 @@ margin-top: 2vh;
   }
   .ParentSection2{
     display: flex;
-    height: 100vh;
+    height: 550px;
     margin-top: 21.8vh;
   }
   .imageim{
@@ -2221,10 +2090,10 @@ margin-top: 2vh;
     margin-left: 2vw;
   }
   .paragraphsection2{
-    margin-top: -40vh;
+    margin-top: -400px;
     font-size: 1vw;
     width: 40vw;
-    margin-left: 50vw;
+    margin-left: 52vw;
     justify-content: center;
     align-items: center;
   }
@@ -2234,9 +2103,8 @@ margin-top: 2vh;
     padding: 1vh 2vh;
   }
   .fullstack{
-    position: absolute;
-    margin-top: 13vh;
-    margin-left: 50vw;
+    margin-top: -450px;
+    margin-left: 51vw;
     font-size: xx-large;
   }   
   .ParentSkill{
@@ -2434,82 +2302,30 @@ display: none;
 .Parentfooter{
   margin-top: -5vh;
   width: 100%;
-  height: 50%;
+  height: 20%;
 }
 .Childfooter{
   flex-wrap: wrap;
   width: 100%;
   display: inline;
 }
-.connect{
-margin-left: 38vw;
-font-size: 4vw;
-margin-top: 2vh;
-}
-.connectparagraph{
-  margin-left: 45vw;
-  margin-top: -0vh;
-}
-
-.iconcontainer{
-  display: flex;
-  margin-top: 3vh;
-  margin-left: 43vw;
-}
-
-.iconcontainer2{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 47vw;
-}
-
-.iconcontainer3{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer4{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 55vw;
-}
-
-.iconcontainer5{
-  display: flex;
-  margin-top: 3vh;
-  margin-left: 43vw;
-}
-
-.iconcontainer6{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 47vw;
-}
-
-.iconcontainer7{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer8{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 55vw;
-}
-
 .allright{
-  margin-left: 0vw;
-  margin-top: 2vh;
+  margin-left: 36vw;
+  margin-top: -10vh;
   font-size: 1.5vw;
 }
 .designby{
-  margin-left: 75vw;
-  font-size: 2vw;
-  margin-top: -1.5vh;
+  margin-left: 85vw;
+  font-size: 1vw;
+  margin-top: 2.5vh;
 }
 
+.FooterParent li{
+  display: flex;
+  position: relative;
+  font-size:1vw;
+  margin-top: -4vh;
+}
 }
 
 
@@ -2840,80 +2656,24 @@ display: none;
 .Parentfooter{
   margin-top: -5vh;
   width: 100%;
-  height: 50%;
+  height: 20%;
 }
 .Childfooter{
   flex-wrap: wrap;
   width: 100%;
   display: inline;
-}
-.connect{
-margin-left: 38vw;
-font-size: 4vw;
-margin-top: 2vh;
-}
-.connectparagraph{
-  margin-left: 45vw;
-  margin-top: -0vh;
-}
-
-.iconcontainer{
-  display: flex;
-  margin-top: 3vh;
-  margin-left: 43vw;
-}
-
-.iconcontainer2{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 47vw;
-}
-
-.iconcontainer3{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer4{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 55vw;
-}
-
-.iconcontainer5{
-  display: flex;
-  margin-top: 3vh;
-  margin-left: 43vw;
-}
-
-.iconcontainer6{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 47vw;
-}
-
-.iconcontainer7{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 51vw;
-}
-
-.iconcontainer8{
-  display: flex;
-  margin-top: -2.3vh;
-  margin-left: 55vw;
+  height: 20%;
 }
 
 .allright{
-  margin-left: 0vw;
-  margin-top: 2vh;
+  margin-left: 36vw;
+  margin-top: -10vh;
   font-size: 1.5vw;
 }
 .designby{
   margin-left: 85vw;
   font-size: 1vw;
-  margin-top: -1.5vh;
+  margin-top: 2.5vh;
 }
 
 }
