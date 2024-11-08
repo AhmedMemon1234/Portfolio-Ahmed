@@ -1,11 +1,3 @@
-import { IoLogoWhatsapp } from "react-icons/io";
-import { FaInstagramSquare } from "react-icons/fa";
-import { AiFillTikTok } from "react-icons/ai";
-import { FaYoutube } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
 export default function Footer(){
     return(
         <div className="Parentfooter">
